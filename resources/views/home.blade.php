@@ -11,7 +11,7 @@
     <div class="max-w-4xl mx-auto px-4">
         <h1>Welcome to home page</h1>
         <x-alert type="info">
-            <x-slot name="title">Info: </x-slot>
+            <x-slot name="title">Info </x-slot>
             Change a few things up and try submitting again.
         </x-alert>
     </div>
