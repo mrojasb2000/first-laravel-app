@@ -13,11 +13,9 @@
             break;    
         case 'warning':
             $class = 'text-yellow-800 bg-yellow-50 dark:text-yellow-500';
-            break;
-        case 'dark':
-            $class = 'text-gray-800 bg-gray-50 dark:text-gray-500';
-            break;    
+            break;   
         default:
+            $class = 'text-gray-800 bg-gray-50 dark:text-gray-500';
             break;
     }
 @endphp
