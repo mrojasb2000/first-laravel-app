@@ -7,6 +7,6 @@
     <title>Posts</title>
 </head>
 <body>
-    Welcome to show post details. <?= $post ?>
+    Welcome to show post details. {{$post}}
 </body>
 </html>
