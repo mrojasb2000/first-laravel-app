@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Command line
+
+```sh
+  $ php artisan migrate
+  $ php artisan make:controller HomeController
+  $ php artisan make:controller PostController
+  $ php artisan serve
+  $ php artisan make:component Alert2
+  $ php artisan make:migration create_posts_table
+  $ php artisan migrate
+  $ php artisan migrate:rollback
+  $ php artisan migrate:rollback --step 1
+  $ php artisan migrate:refresh
+  $ php artisan migrate:fresh
+  $ php artisan make:migration add_avatar_to_users_table
+  $ php artisan migrate
+  $ php artisan db:seed
+  $ php artisan migrate:fresh --seed
+```
