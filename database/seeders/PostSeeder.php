@@ -13,11 +13,7 @@ class PostSeeder extends Seeder
      */
     public function run(): void
     {
-        $post = new Post();
-        $post->title = "Lorem Ipsum";
-        $post->content = "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.";
-        $post->is_active = true;
-        $post->published_at = now();
-        $post->save();
+        Post::truncate();
+        Post::factory()->count(10)->create();
     }
 }
